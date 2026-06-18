@@ -400,7 +400,7 @@ impl<T> Ioctl<T> {
 
 /// Indicates that an [`Ioctl`] does not take any arguments.
 ///
-/// This is used as the type parameter of [`Ioctl`] by the [`_IO`] and [`_IOC`] functions.
+/// This is used as the type parameter of [`Ioctl`]s returned by the [`_IO`] function.
 /// [`Ioctl<NoArgs>`] comes with its own, separate `IOCTL.ioctl(fd)` method that only takes the file
 /// descriptor as an argument.
 ///
